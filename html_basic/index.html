@@ -1,77 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First Webpage</title>
+    <title>Dina Mohamed - Personal Portfolio</title>
   </head>
   <body>
+    <!-- Header -->
     <header>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
-      </ul>
+      <h1>Dina Mohamed</h1>
+      <p>Creative Interior Designer & Aspiring Front-End Developer</p>
     </header>
-    <main>
-      <article>
-        <h1>Welcome to My Portfolio</h1>
-        <h2>About Me</h2>
-        <p>This is my very first webpage. I am learning HTML from scratch.</p>
-        <h3>My Hobbies</h3>
-        <p>I enjoy designing, reading, and exploring creative projects.</p>
-        <p>Here is my favorite logo:</p>
-        <a href="https://www.alxafrica.com/" target="_blank">
-          <img
-            src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png"
-            alt="ALX Logo"
-            width="200"
-          />
-        </a>
-        <p>Click the image to learn more about ALX!</p>
 
-        <!-- Learners Table -->
-        <h3>Learners Information</h3>
-        <table border="1">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Age</th>
-              <th>Country</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>John</td>
-              <td>25</td>
-              <td>USA</td>
-            </tr>
-            <tr>
-              <td>Emily</td>
-              <td>28</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Michael</td>
-              <td>32</td>
-              <td>Australia</td>
-            </tr>
-            <tr>
-              <td>Sophia</td>
-              <td>21</td>
-              <td>UK</td>
-            </tr>
-          </tbody>
-        </table>
-      </article>
-      <aside>
-        <p>placeholder to add comment thread later</p>
-      </aside>
-    </main>
-    <footer>
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+      <h2>Introduction</h2>
       <p>
-        Made by Dina Mohamed -
-        <a href="https://github.com/DinamohammadFe" target="_blank">here</a>
+        I am Dina Mohamed, a passionate interior designer transitioning into the
+        tech world as a front-end developer. With a background in fine arts and
+        UX/UI design, I aim to create visually appealing and user-friendly
+        digital experiences.
       </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <h3>Interior Design Portfolio</h3>
+        <p>
+          A showcase of my best interior design projects, blending functionality
+          with creativity.
+        </p>
+        <a href="https://github.com/DinamohammadFe" target="_blank"
+          >View Project</a
+        >
+      </article>
+
+      <article class="project">
+        <h3>Figma to Code Website</h3>
+        <p>
+          Converted a Figma design into a responsive website using HTML, CSS,
+          and JavaScript.
+        </p>
+        <a href="https://github.com/DinamohammadFe" target="_blank"
+          >View Project</a
+        >
+      </article>
+
+      <article class="project">
+        <h3>Prime Picks YouTube Channel</h3>
+        <p>
+          Created a content strategy and branding for a Top 10 YouTube channel
+          with engaging visuals.
+        </p>
+        <a href="https://www.youtube.com/" target="_blank">View Project</a>
+      </article>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I graduated from the Faculty of Fine Arts, Interior Architecture
+        Department, and worked for years as an interior designer. I love solving
+        creative challenges, learning new technologies, and blending design with
+        functionality.
+      </p>
+      <p>My skills include:</p>
+      <ul>
+        <li>Interior Design (AutoCAD, 3ds Max, Photoshop)</li>
+        <li>UX/UI Design</li>
+        <li>HTML, CSS, JavaScript (beginner)</li>
+        <li>Video Content Writing & Creative Strategy</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:dinamohamed@example.com">dinamohamed@example.com</a>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/DinamohammadFe" target="_blank">GitHub</a>
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Dina Mohamed</p>
     </footer>
   </body>
 </html>
